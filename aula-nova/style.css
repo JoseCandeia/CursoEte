@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+ 
 }
 
 
@@ -11,30 +12,45 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
- 
-    margin-top: 0;
+
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(90, 88, 88);
+    padding: 10px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+}
+
+ a{
+    color:white;
+    text-decoration: none;
+    transition: 0.5s;
     
 }
-.menu{
+a:hover{
+
+    padding: 10px;
+    background: rgb(78, 75, 75);
+  border-bottom: 3px solid black ;
+  padding-bottom: 1px;
+  color: aqua;
+}
+
+body{
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: rgb(80, 75, 75);
-    
-
-    
+   
+    flex-direction: column;
 }
-.menu ul{
-    display: flex;
-    gap: 49px;
-    list-style: none;
-    padding-bottom: 10px;
-    margin-top: 6px;   
-    
-}
-
 
 html{
     scroll-behavior: smooth;
