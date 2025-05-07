@@ -3,10 +3,11 @@ $nome = "Eduardo";
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 $nome = $_POST["nome"];
 if ($nome == "Eduardo") {
-    echo "<p style="margin: 0 auto;"Usuario Logado";
+    echo  "<p>Usuario não foi encontrado</p>";
 }else{
-    echo "<p>Usuario não foi encontrado";
+    echo "<p margin: 0 auto;>Usuario não foi encontrado</p>";
 }
+
 }
 
 ?>
